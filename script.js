@@ -6,6 +6,8 @@ images[0] = "images/Ohidson1.jpg"
 images[1] = "images/Aregbesola.jpeg"
 images[2] = "images/volleyball.jpg"
 images[3] = "images/washington.jpg"
+images[4] = 'images/libr.jpg'
+images[5] = "images/f_student.jpg"
 
 //Definding our function
 const slidePics = () => {

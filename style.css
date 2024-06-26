@@ -13,6 +13,7 @@ width: 100%;
 background: #000;
 height: 50px;
 padding: 20px 15px;
+margin-bottom: 10px;
 }
 
 nav{
@@ -25,11 +26,35 @@ nav{
   color: #ff0;
 }
 
-.container ul li{
+nav a:nth-child(1) {
+  color: #ff0;
+  text-decoration: none;
+}
+
+nav ul li{
   display: inline-block;
+  margin: 0 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+nav ul li::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.5px;
+  width: 0%;
+  height: 3px;
+  background: #ff0;
+  transition: 1s;
+}
+
+nav ul li:hover::after{
+  width: 100%;
 }
 
 .img-div{
+  margin-top: 25px;
   position: absolute;
   left: 50%;
   top: 50%;
