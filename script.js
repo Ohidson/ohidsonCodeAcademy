@@ -5,14 +5,14 @@ var x = 0
 images[0] = "images/Ohidson1.jpg"
 images[1] = "images/Aregbesola.jpeg"
 images[2] = "images/volleyball.jpg"
-images[3] = "images/volleyball.jpg"
+images[3] = "images/washington.jpg"
 
 //Definding our function
 const slidePics = () => {
-  document.pics.src = images[2]
+  document.pics.src = images[x]
 
   if(x < images.length - 1){
-    x++
+    x = x + 1;
   } else {
     x = 0
   }
