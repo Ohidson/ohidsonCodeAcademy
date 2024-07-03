@@ -8,6 +8,7 @@ images[2] = "images/volleyball.jpg"
 images[3] = "images/washington.jpg"
 images[4] = 'images/libr.jpg'
 images[5] = "images/f_student.jpg"
+images[6] = "images/ohidson.JPG"
 
 //Definding our function
 const slidePics = () => {
