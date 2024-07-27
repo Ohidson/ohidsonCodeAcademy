@@ -2,6 +2,14 @@
   box-sizing: border-box;
   border: 0;
   margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
 }
 
 .content{
@@ -13,8 +21,23 @@
   background-repeat: no-repeat;
 }
 
+.about{
+  padding-top: 10%;
+  margin: 0 auto;
+}
+
+.about h1{
+  text-align: center;
+}
+
+.about h3{
+  text-align: center;
+  padding-top: 5%;
+}
+
+
 body{
-  
+  background: #000;  
 }
 
 img{
