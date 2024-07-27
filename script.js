@@ -2,13 +2,14 @@ var images = []
 var x = 0
 
 // generating list
-images[0] = "images/Ohidson1.jpg"
-images[1] = "images/Aregbesola.jpeg"
-images[2] = "images/volleyball.jpg"
-images[3] = "images/washington.jpg"
-images[4] = 'images/libr.jpg'
-images[5] = "images/f_student.jpg"
-images[6] = "images/ohidson.JPG"
+images[0] = "asset/images/Ohidson1.jpg"
+images[1] = "asset/images/Aregbesola.jpeg"
+images[1] = "asset/images/Aregbesola.jpeg"
+images[2] = "asset/images/volleyball.jpg"
+images[3] = "asset/images/washington.jpg"
+images[4] = 'asset/images/libr.jpg'
+images[5] = "asset/images/f_student.jpg"
+images[6] = "asset/images/ohidson.JPG"
 
 //Definding our function
 const slidePics = () => {
