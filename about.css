@@ -15,10 +15,11 @@
 .content{
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0,0,0.6,0.4),rgba(0,0,0,0.4)),url('./asset/images/codeSchool.jpg');
+  background: linear-gradient(rgba(0,0,0.6,0.4),rgba(0,0,0,0.4)),url('./asset/images/coded.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 
 .about{
@@ -38,6 +39,37 @@
 
 .about p{
   padding-top: 5%;
+}
+
+.cta{
+  margin: 10px auto;
+  height: 60vh;
+  width: 80%;
+  background: linear-gradient(rgba(0,0,0.6,0.4),rgba(0,0,0,0.4)),url('./asset/images/codeSchool.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+
+  position: absolute;
+}
+
+.btn{
+  width: 150px;
+  height: 45px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,50%);
+  background: hotpink;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.btn::after{
+ content: "";
+ position: absolute;
 }
 
 body{
