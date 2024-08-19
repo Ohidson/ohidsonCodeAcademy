@@ -1,0 +1,33 @@
+.contact{
+  background: #000;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.contact-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-row-left{
+  flex-basis: 38%;
+}
+
+.contact-row-right{
+  flex-basis: 50%;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 12px 8px;
+  outline: none;
+  background: #262626;
+  border: 0;
+  color: #fff
+}
+
+@media(max-width: 768px){
+  .contact-row{
+    display: block;
+  }
+}

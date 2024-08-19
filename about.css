@@ -2,7 +2,7 @@
   box-sizing: border-box;
   border: 0;
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'poppins', sans-serif;
   color: #fff;
   line-height: 1.6;
 }
@@ -19,6 +19,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   overflow: auto;
 }
 
@@ -121,4 +122,12 @@ img{
 
 .footer{
   padding-top: 10%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.row{
+  flex-basis: 38%;
 }
