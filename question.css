@@ -2,6 +2,18 @@
   background: #000;
   color: #fff;
   padding-top: 50px;
+  
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%,-50%);
+  border-left: 6px solid gold;
+  border-radius: 10px;
+  padding-left: 15px;
 }
 
 .contact-row{
@@ -17,6 +29,28 @@
   flex-basis: 50%;
 }
 
+.img-fluid{
+  border-radius: 10px;
+}
+
+/*  carousel */
+
+.carousel-caption{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.carousel-caption h5{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.bg-carosel{
+  background: linear-gradient(0,0,0,0.7);
+}
+
+/* form */
 input, textarea{
   width: 100%;
   padding: 12px 8px;
@@ -24,6 +58,26 @@ input, textarea{
   background: #262626;
   border: 0;
   color: #fff
+}
+
+#icon:hover {
+ transform: translateY(-3px);
+}
+
+#msg{
+  display: block;
+  padding-bottom: 10px;
+  color: orange
+}
+
+/* footer */
+.back-dark{
+  background: #000;
+}
+
+.w-5{
+  width: 40px;
+  height: 40px;
 }
 
 @media(max-width: 768px){
