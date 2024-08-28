@@ -101,8 +101,42 @@ body{
   border: none;
 }
 
-nav{
+nav .container{
+  display: flex;
+  justify-content: space-between;
   padding: 10px;
+  height: 50px;
+}
+
+nav .container ul{
+  position: absolute;
+  right: 10%;
+}
+
+nav ul li{
+  margin-left: 20px;
+  position: relative;
+}
+
+nav ul li::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 6px;
+  background: yellow;
+  transition: all 1s;
+}
+
+nav ul li:hover::after{
+  width: 100%;
+}
+
+
+nav .container a:first-child{
+  color: yellow;
+  text-decoration: none;
 }
 
 nav ul a{
@@ -113,6 +147,7 @@ nav ul a{
 nav ul li{
   list-style: none;
   color: yellow;
+  display: inline-block;
 }
 
 /* STORY */
@@ -159,19 +194,26 @@ nav ul li{
 
 .icon{
   margin-top: 20px ;
+  display: flex;
+  justify-content: center;
 }
 
 .icon i{
   margin-right: 10px;
   font-size: 23px;
+  transition: 1s;
+}
+
+.icon i:hover{
+  transform: translateY(-5px);
 }
 
 .fa-twitter-square{
-  color: rgb(146, 208, 229);
+  color: rgb(103, 199, 231);
 }
 
 .fa-facebook-square{
-  color: rgb(91, 91, 146);
+  color: rgb(80, 80, 238);
 }
 
 .fa-instagram{

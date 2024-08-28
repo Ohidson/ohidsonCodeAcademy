@@ -58,6 +58,9 @@ nav a:first-child{
   position: relative;
 }
 
+.text-center{
+  text-align: center;
+}
 
 .content{
   width: 80%;
