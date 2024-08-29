@@ -109,7 +109,7 @@ img {
     z-index: 2;
   }
   nav ul li:hover::after{
-    width: 10%;
+    width: 20%;
   }
   #bar{
     display: block;
